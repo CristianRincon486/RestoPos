@@ -1679,8 +1679,8 @@ function Caja({ onCobro }) {
         <div className="tipo-pago">
           {[
             { id: "efectivo", icon: "💵" },
-            { id: "transferencia", icon: "📲" },
-            { id: "tarjeta", icon: "💳" },
+            { id: "nequi", icon: "📲" },
+            { id: "daviplata", icon: "💳" },
           ].map((tp) => (
             <button
               key={tp.id}
